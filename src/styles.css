@@ -28,6 +28,19 @@
   padding-top: 100px;
 }
 
+.heading {
+  padding-right: 0;
+}
+.hero-avitar {
+  padding-left: 0;
+}
+
+.avitar {
+  display: block;
+  max-width: 380px;
+  max-height: 500px;
+}
+
 .bar-deco {
   background-color: var(--primary-color);
   font-size: 16px;
@@ -76,12 +89,20 @@ hr {
 }
 
 @media (max-width: 767px) {
+  .homepage-hero {
+    text-align: center;
+  }
+
   .homepage-hero h1 {
     font-size: 50px;
     line-height: 75px;
   }
 
   img {
+    display: none;
+  }
+
+  .hero-avitar {
     display: none;
   }
 
