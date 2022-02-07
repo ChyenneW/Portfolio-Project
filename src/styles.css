@@ -88,6 +88,47 @@ hr {
   padding-bottom: 45px;
 }
 
+.homepage-inquiry {
+  background-color: var(--primary-color);
+  padding: 25px;
+  padding-top: 60px;
+}
+
+.inquiry-heading {
+  text-align: left;
+  font-family: var(--secondry-font);
+  font-size: 18px;
+  line-height: 20px;
+  padding-left: 80px;
+}
+
+.inquiry-heading h2 {
+  font-family: var(--primary-font);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.inquiry-btn {
+  padding-top: 30px;
+}
+
+.inquiry-button {
+  width: 200px;
+  height: 64px;
+  padding: 18px 30px;
+}
+
+.inquiry-link {
+  color: white;
+  text-decoration: none;
+  font-family: var(--secondry-font);
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 27px;
+  text-align: center;
+}
+
 @media (max-width: 767px) {
   .homepage-hero {
     text-align: center;
@@ -112,5 +153,15 @@ hr {
 
   .content-project {
     font-size: 45px;
+  }
+
+  .inquiry-heading {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .inquiry-button {
+    display: block;
+    margin: 0 auto;
   }
 }
