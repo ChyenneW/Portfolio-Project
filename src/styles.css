@@ -2,6 +2,7 @@
   --primary-font: "Playfair Display SC", serif;
   --secondry-font: "Poppins", sans-serif;
   --primary-color: turquoise;
+  --secondary-color: red;
 }
 
 .homepage-hero {
@@ -117,6 +118,7 @@ hr {
   width: 200px;
   height: 64px;
   padding: 18px 30px;
+  background-color: var(--secondary-color);
 }
 
 .inquiry-link {
@@ -127,6 +129,31 @@ hr {
   font-weight: 500px;
   line-height: 27px;
   text-align: center;
+}
+
+footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer-email {
+  text-align: center;
+  font-family: var(--secondry-font);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer-icons {
+  max-width: 350px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+footer a {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 5px;
+  border-radius: 25% 10%;
 }
 
 @media (max-width: 767px) {
