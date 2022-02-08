@@ -37,7 +37,6 @@
 }
 
 .avitar {
-  display: block;
   max-width: 380px;
   max-height: 500px;
 }
@@ -83,6 +82,21 @@ hr {
   font-size: 64px;
   font-weight: 700;
   line-height: 85px;
+}
+
+.content-button {
+  height: 24px;
+  padding: 25px 20px;
+  border: 1px solid var(--primary-color);
+}
+
+.project-link {
+  font-family: var(--secondry-font);
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 .homepage-content .row {
