@@ -231,7 +231,7 @@ footer a {
     display: none;
   }
 
-  .hero-avitar {
+  .avitar {
     display: none;
   }
 
@@ -251,5 +251,9 @@ footer a {
   .inquiry-button {
     display: block;
     margin: 0 auto;
+  }
+
+  .about-me-all {
+    text-align: center;
   }
 }
