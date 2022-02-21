@@ -17,9 +17,6 @@
   line-height: 128px;
 }
 .homepage-hero h2 {
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: 400;
   padding-bottom: 70px;
 }
 .homepage-hero h3 {
@@ -56,6 +53,10 @@
   line-height: 30px;
 }
 
+.content-paragraph .row {
+  margin-bottom: 50px;
+}
+
 .content-intro {
   font-size: 18px;
   font-weight: 400;
@@ -84,6 +85,13 @@ hr {
   line-height: 85px;
 }
 
+.content-subheadings {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: var(--secondry-font);
+}
+
 .content-button {
   height: 24px;
   padding: 25px 20px;
@@ -107,6 +115,7 @@ hr {
   background-color: var(--primary-color);
   padding: 25px;
   padding-top: 60px;
+  margin-top: 10px;
 }
 
 .inquiry-heading {
@@ -179,13 +188,6 @@ footer a {
   margin-top: 100px;
 }
 
-.about-heading {
-  font-size: 64px;
-  font-family: var(--primary-font);
-  font-weight: 700;
-  line-height: 85px;
-}
-
 .about-sub {
   font-size: 18px;
   font-family: var(--secondry-font);
@@ -200,6 +202,17 @@ footer a {
   line-height: 27px;
   padding: 15px;
   background-color: var(--secondary-color);
+}
+
+.sub-hero {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.works-display {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 @media (max-width: 767px) {
