@@ -1,8 +1,8 @@
 :root {
   --primary-font: "Playfair Display SC", serif;
   --secondry-font: "Poppins", sans-serif;
-  --primary-color: turquoise;
-  --secondary-color: red;
+  --primary-color: #bbe9db;
+  --secondary-color: #aeccc6;
 }
 
 .homepage-hero {
@@ -93,18 +93,22 @@ hr {
 }
 
 .content-button {
-  height: 24px;
-  padding: 25px 20px;
-  border: 1px solid var(--primary-color);
-}
-
-.project-link {
   font-family: var(--secondry-font);
   font-size: 14px;
   line-height: 20px;
   text-align: center;
   text-decoration: none;
   color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  height: 24px;
+  padding: 15px 10px;
+  transition: 200ms ease-in-out;
+}
+
+.content-button:hover {
+  color: white;
+  background-color: var(--primary-color);
 }
 
 .homepage-content .row {
@@ -138,13 +142,6 @@ hr {
 }
 
 .inquiry-button {
-  width: 200px;
-  height: 64px;
-  padding: 18px 30px;
-  background-color: var(--secondary-color);
-}
-
-.inquiry-link {
   color: white;
   text-decoration: none;
   font-family: var(--secondry-font);
@@ -152,6 +149,21 @@ hr {
   font-weight: 500px;
   line-height: 27px;
   text-align: center;
+
+  width: 200px;
+  height: 64px;
+  padding: 18px 30px;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+
+  transition: 200ms ease-in-out;
+}
+
+.inquiry-button:hover {
+  color: var(--secondary-color);
+
+  background-color: white;
+  border: 1px solid var(--primary-color);
 }
 
 footer {
@@ -167,16 +179,20 @@ footer {
 }
 
 .footer-icons {
-  max-width: 350px;
+  font-size: 40px;
+  max-width: 400px;
   margin: auto;
   padding-top: 40px;
 }
 
 footer a {
   color: var(--secondary-color);
-  background-color: var(--primary-color);
   padding: 5px;
-  border-radius: 25% 10%;
+  transition: 200ms ease-in-out;
+}
+
+footer a:hover {
+  color: var(--primary-color);
 }
 
 .about-hero {
@@ -193,15 +209,6 @@ footer a {
   font-family: var(--secondry-font);
   font-weight: 700;
   line-height: 27px;
-}
-
-.about-project {
-  font-size: 18px;
-  font-family: var(--secondry-font);
-  font-weight: 500;
-  line-height: 27px;
-  padding: 15px;
-  background-color: var(--secondary-color);
 }
 
 .sub-hero {
@@ -233,7 +240,7 @@ footer a {
     display: none;
   }
 
-  .homepage-content {
+  .content-paragraph {
     text-align: center;
   }
 
@@ -252,6 +259,10 @@ footer a {
   }
 
   .about-me-all {
+    text-align: center;
+  }
+
+  .sub-hero {
     text-align: center;
   }
 }
