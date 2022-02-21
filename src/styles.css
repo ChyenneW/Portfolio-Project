@@ -146,6 +146,8 @@ hr {
 
 .inquiry-btn {
   padding-top: 30px;
+  display: block;
+  margin: 0 auto;
 }
 
 .inquiry-button {
@@ -183,18 +185,21 @@ footer {
   font-family: var(--secondry-font);
   font-size: 25px;
   font-weight: 500;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 25px;
 }
 
 .footer-icons {
-  font-size: 40px;
+  font-size: 25px;
   max-width: 400px;
   margin: auto;
-  padding-top: 40px;
 }
 
 footer a {
   color: var(--secondary-color);
-  padding: 5px;
+  padding: 40px;
+  padding-top: 0;
   transition: 200ms ease-in-out;
 }
 
