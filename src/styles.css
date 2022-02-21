@@ -32,11 +32,9 @@
 .heading {
   padding-right: 0;
 }
-.hero-avitar {
-  padding-left: 0;
-}
 
 .avitar {
+  background-color: var(--primary-color);
   display: block;
   margin: 0 auto;
   max-width: 380px;
@@ -44,13 +42,13 @@
 }
 
 .bar-deco {
-  background-color: var(--primary-color);
   font-size: 16px;
+  background-color: white;
   line-height: 24px;
   font-weight: 500px;
 }
 
-.homepage-content {
+.content-paragraph {
   font-family: var(--secondry-font);
   text-align: left;
   font-size: 16px;
@@ -79,7 +77,7 @@ hr {
   padding-top: 25px;
 }
 
-.content-project {
+.content-headings {
   font-family: var(--primary-font);
   font-size: 64px;
   font-weight: 700;
@@ -105,7 +103,7 @@ hr {
   padding-bottom: 45px;
 }
 
-.homepage-inquiry {
+.inquiry-section {
   background-color: var(--primary-color);
   padding: 25px;
   padding-top: 60px;
@@ -174,6 +172,7 @@ footer a {
 
 .about-hero {
   margin-top: 30px;
+  margin-bottom: 100px;
 }
 
 .about-me-all {
@@ -194,13 +193,6 @@ footer a {
   line-height: 27px;
 }
 
-.about-me {
-  font-size: 16px;
-  font-family: var(--secondry-font);
-  font-weight: 400;
-  line-height: 30px;
-}
-
 .about-project {
   font-size: 18px;
   font-family: var(--secondry-font);
@@ -208,13 +200,6 @@ footer a {
   line-height: 27px;
   padding: 15px;
   background-color: var(--secondary-color);
-}
-
-.about-inquiry {
-  background-color: var(--primary-color);
-  margin-top: 100px;
-  padding: 25px;
-  padding-top: 60px;
 }
 
 @media (max-width: 767px) {
