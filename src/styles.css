@@ -155,7 +155,7 @@ hr {
   text-decoration: none;
   font-family: var(--secondry-font);
   font-size: 18px;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 27px;
   text-align: center;
 
@@ -205,6 +205,7 @@ footer a {
 
 footer a:hover {
   color: var(--primary-color);
+  font-size: 45px;
 }
 
 .about-hero {
@@ -234,6 +235,12 @@ footer a:hover {
   font-weight: 400;
 }
 
+.closer {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: var(--secondry-font);
+}
+
 @media (max-width: 767px) {
   .homepage-hero {
     text-align: center;
@@ -242,6 +249,11 @@ footer a:hover {
   .homepage-hero h1 {
     font-size: 50px;
     line-height: 75px;
+  }
+
+  .homepage-hero a {
+    position: relative;
+    top: 30px;
   }
 
   img {
