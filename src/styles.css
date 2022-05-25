@@ -235,6 +235,10 @@ footer a:hover {
   font-weight: 400;
 }
 
+.each-work {
+  margin-bottom: 20px;
+}
+
 .closer {
   text-align: center;
   margin-bottom: 10px;
