@@ -27,6 +27,7 @@
   display: block;
   margin: 0 auto;
   margin-top: 30px;
+  width: 300px;
   max-width: 85%;
   border: 1px solid lightgray;
   border-radius: 50%;
@@ -36,6 +37,7 @@
 .sub-hero {
   margin-top: 150px;
   margin-bottom: 100px;
+  text-align: center;
 }
 
 .content-headings {
@@ -135,4 +137,23 @@ footer a:hover {
   text-align: center;
   margin-bottom: 10px;
   font-family: var(--secondry-font);
+}
+
+@media (max-width: 767px) {
+  img {
+    display: none;
+  }
+
+  .inquiry-heading {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .inquiry-button {
+    display: block;
+    margin: 0 auto;
+  }
+  .sub-hero {
+    text-align: left;
+  }
 }
