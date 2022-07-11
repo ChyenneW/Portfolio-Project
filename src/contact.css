@@ -1,0 +1,138 @@
+:root {
+  --primary-font: "Playfair Display SC", serif;
+  --secondry-font: "Poppins", sans-serif;
+  --primary-color: #bbe9db;
+  --secondary-color: #aeccc6;
+}
+
+.bar-deco {
+  font-size: 16px;
+  background-color: white;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.active {
+  color: var(--primary-color) !important;
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.contact-img-container {
+  margin-bottom: -100px;
+}
+
+.contact-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 85%;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px 5px lightgray;
+}
+
+.sub-hero {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.content-headings {
+  font-family: var(--primary-font);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85px;
+}
+
+.inquiry-section {
+  background-color: var(--primary-color);
+  padding: 25px;
+  padding-top: 60px;
+  margin-top: 10px;
+}
+
+.inquiry-heading {
+  text-align: left;
+  font-family: var(--secondry-font);
+  font-size: 18px;
+  line-height: 20px;
+  padding-left: 80px;
+}
+
+.inquiry-heading h2 {
+  font-family: var(--primary-font);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.inquiry-btn {
+  padding-top: 30px;
+  display: block;
+  margin: 0 auto;
+}
+
+.inquiry-button {
+  color: white;
+  text-decoration: none;
+  font-family: var(--secondry-font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+
+  width: 200px;
+  height: 64px;
+  padding: 18px 30px;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+
+  transition: 200ms ease-in-out;
+}
+
+.inquiry-button:hover {
+  color: var(--secondary-color);
+
+  background-color: white;
+  border: 1px solid var(--primary-color);
+}
+
+footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer-email {
+  text-align: center;
+  font-family: var(--secondry-font);
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 25px;
+}
+
+.footer-icons {
+  font-size: 25px;
+  max-width: 400px;
+  margin: auto;
+}
+
+footer a {
+  color: var(--secondary-color);
+  padding: 40px;
+  padding-top: 0;
+  transition: 200ms ease-in-out;
+}
+
+footer a:hover {
+  color: var(--primary-color);
+  font-size: 45px;
+}
+
+.closer {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: var(--secondry-font);
+}
