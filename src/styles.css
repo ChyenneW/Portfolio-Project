@@ -31,11 +31,13 @@
 }
 
 .avitar {
-  background-color: var(--primary-color);
   display: block;
   margin: 0 auto;
-  max-width: 380px;
-  max-height: 500px;
+  margin-top: 30px;
+  max-width: 85%;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px 5px lightgray;
 }
 
 .bar-deco {
