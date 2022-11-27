@@ -33,3 +33,30 @@ nav {
   padding: 20px 30px;
   border-bottom: 1pt solid #252525;
 }
+
+.hamburger {
+  display: block;
+  top: 5%;
+  left: 95%;
+  width: 30px;
+  height: 30px;
+  transform: translateY(-50%);
+  border: 0;
+  background: 0 0;
+}
+
+.bar {
+  top: 3px;
+  background: #000;
+  width: 100%;
+  height: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+#bar2 {
+  top: 11px;
+}
+
+#bar3 {
+  top: 19px;
+}
