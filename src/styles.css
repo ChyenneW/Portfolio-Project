@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0;
   padding: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -18,10 +18,11 @@ nav {
 
 .navigation {
   position: fixed;
+  right: -95%;
   width: 350px;
   height: 100%;
   background-color: #000;
-  transition: 0.5s;
+  transition: 0.7s ease-in-out;
 }
 
 .navigation ul li {
@@ -32,6 +33,11 @@ nav {
   font-size: 1.5em;
   padding: 20px 30px;
   border-bottom: 1pt solid #252525;
+}
+
+.hamburger,
+.bar {
+  position: fixed;
 }
 
 .hamburger {
@@ -50,7 +56,7 @@ nav {
   background: #000;
   width: 100%;
   height: 4px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 #bar2 {
@@ -59,4 +65,22 @@ nav {
 
 #bar3 {
   top: 19px;
+}
+
+.navigation.active {
+  right: 0;
+}
+
+.hamburger.open #bar1 {
+  background-color: #fff;
+  transform: rotate(45deg) translate(6px, 5px);
+}
+
+.hamburger.open #bar2 {
+  background-color: transparent;
+}
+
+.hamburger.open #bar3 {
+  background-color: #fff;
+  transform: rotate(-45deg) translate(6px, -5px);
 }
