@@ -52,3 +52,37 @@ body {
   margin-bottom: 15px;
   width: 70%;
 }
+
+footer {
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 50px;
+  text-align: center;
+}
+
+.email-divider {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  transform: rotate(90deg) translate(6px, 5px);
+  position: fixed;
+  right: -60px;
+  bottom: 80px;
+}
+
+.social-divider {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  transform: rotate(90deg) translate(6px, 5px);
+  position: fixed;
+  left: -60px;
+  bottom: 80px;
+}
+
+.side-divider hr {
+  height: 2px;
+  margin: 0;
+  color: black;
+  width: 100px;
+}
