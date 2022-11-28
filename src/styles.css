@@ -43,3 +43,29 @@ body {
   grid-template-columns: repeat(2, 1fr);
   list-style-type: circle;
 }
+
+.stack {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  position: relative;
+  margin-top: 40px;
+}
+
+.stack-top {
+  grid-column: 1 / span 10;
+  grid-row: 1;
+  padding-top: 7%;
+  z-index: 1;
+}
+
+.stack-bottom {
+  grid-column: 3/ -1;
+  grid-row: 1;
+}
+
+.technologies-used {
+  display: flex;
+  gap: 23px;
+  list-style-type: none;
+  padding-left: 0;
+}
