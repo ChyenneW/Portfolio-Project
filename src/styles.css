@@ -16,12 +16,13 @@ body {
 .section {
   display: block;
   margin: 0 auto;
-  margin-top: 75%;
+  margin-top: 70px;
   width: 70%;
 }
 
 .divider {
   display: grid;
+  margin-bottom: 20px;
 }
 
 .divider h3 {
