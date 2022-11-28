@@ -19,6 +19,7 @@ nav {
   right: -95%;
   width: 350px;
   height: 100%;
+  top: 0;
   background-color: #000;
   transition: 0.7s ease-in-out;
 }
