@@ -12,3 +12,33 @@ body {
   margin-top: 5%;
   width: 80%;
 }
+
+.section {
+  display: block;
+  margin: 0 auto;
+  margin-top: 75%;
+  width: 70%;
+}
+
+.divider {
+  display: grid;
+}
+
+.divider h3 {
+  grid-column: 1 / 1;
+  grid-row: 1;
+}
+
+.divider hr {
+  height: 2px;
+  color: black;
+  width: 100%;
+  grid-column: 2 / 15;
+  grid-row: 1;
+}
+
+.section ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style-type: circle;
+}
