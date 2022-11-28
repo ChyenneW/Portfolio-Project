@@ -1,0 +1,47 @@
+.stack {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.stack-top-left {
+  grid-column: 1 / span 10;
+  grid-row: 1;
+  padding-top: 7%;
+  z-index: 1;
+}
+
+.stack-bottom-right {
+  grid-column: 3/ -1;
+  grid-row: 1;
+}
+
+ul.technologies-used-left {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.stack-top-right {
+  padding-top: 10%;
+  z-index: 1;
+  grid-column: 3/ -1;
+  grid-row: 1;
+  text-align: right;
+}
+
+.stack-bottom-left {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+
+ul.technologies-used-right {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: end;
+}
