@@ -1,5 +1,6 @@
 @import url("nav.css");
 @import url("stack.css");
+@import url("footer.css");
 
 :root {
   --primary-font: "Playfair Display SC", serif;
@@ -7,6 +8,7 @@
   --primary-color: #85e1dc;
   --secondary-color: #a1d8da;
   --low-color: #aecac2;
+  --link-color1: #c9a053;
 }
 
 body {
@@ -15,11 +17,26 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+h1 {
+  font-size: 9.5vw;
+}
+
 .intro {
   display: block;
   margin: 0 auto;
   margin-top: 5%;
   width: 80%;
+}
+
+.intro h4,
+.intro p {
+  width: 70%;
+  font-size: 3vw;
+}
+
+.intro h4,
+h3 span {
+  color: var(--link-color1);
 }
 
 .section {
@@ -61,61 +78,6 @@ body {
   width: 70%;
 }
 
-footer {
-  margin: 0 auto;
-  margin-top: 100px;
-  padding: 50px;
-  text-align: center;
-  color: var(--low-color);
-
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-}
-
-footer a {
-  color: var(--low-color);
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: var(--secondary-color);
-  text-decoration: underline;
-}
-
-.closer {
-  grid-column: 2/6;
-}
-
-.email-divider {
-  display: flex;
-  gap: 25px;
-  align-items: center;
-  transform: rotate(90deg) translate(6px, 5px);
-  position: fixed;
-  right: -60px;
-  bottom: 80px;
-  color: var(--low-color);
-  grid-column: 6/7;
-}
-
-.social-divider {
-  display: flex;
-  gap: 25px;
-  align-items: center;
-  transform: rotate(90deg) translate(6px, 5px);
-  position: fixed;
-  left: -60px;
-  bottom: 80px;
-  color: var(--low-color);
-  grid-column: 1/2;
-}
-
-.side-divider hr {
-  height: 2px;
-  margin: 0;
-  width: 100px;
-}
-
 @media (min-width: 700px) {
   .hamburger {
     display: none;
@@ -143,7 +105,7 @@ footer a:hover {
 
   .navigation ul li,
   .navigation ul li a {
-    text-align: left;
+    text-align: right;
     font-size: 15px;
     padding: 0;
     text-decoration: none;
