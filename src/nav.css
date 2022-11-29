@@ -23,7 +23,7 @@ nav {
   height: 100%;
   top: 0;
   background-color: #000;
-  transition: 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 .navigation ul li {

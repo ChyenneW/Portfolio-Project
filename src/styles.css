@@ -29,15 +29,19 @@ h1 {
 }
 
 .intro h4,
-.intro p,
-#aboutMe div {
+.intro p {
   width: 70%;
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 .intro h4,
 h3 span {
   color: var(--link-color1);
+}
+
+.disappear {
+  display: none;
+  transition: all 2s ease-in-out;
 }
 
 .section {
@@ -49,7 +53,7 @@ h3 span {
 
 .divider {
   display: grid;
-  margin-top: 180px;
+  margin-top: 185px;
   margin-bottom: 20px;
   align-items: center;
 }
@@ -57,6 +61,7 @@ h3 span {
 .divider h3 {
   grid-column: 1 / 1;
   grid-row: 1;
+  font-size: 4vw;
 }
 
 .divider hr {
@@ -65,6 +70,10 @@ h3 span {
   width: 100%;
   grid-column: 2 / 15;
   grid-row: 1;
+}
+
+#aboutMe div {
+  font-size: 3vw;
 }
 
 .about-me {
@@ -115,9 +124,7 @@ h3 span {
     border-color: transparent;
   }
 
-  #aboutMe div {
-    font-size: 3vw;
-    margin: 0 auto;
-    width: 80%;
+  .divider {
+    margin-top: 100px;
   }
 }
