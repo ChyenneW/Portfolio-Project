@@ -29,9 +29,10 @@ h1 {
 }
 
 .intro h4,
-.intro p {
+.intro p,
+#aboutMe div {
   width: 70%;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 .intro h4,
@@ -48,7 +49,9 @@ h3 span {
 
 .divider {
   display: grid;
+  margin-top: 180px;
   margin-bottom: 20px;
+  align-items: center;
 }
 
 .divider h3 {
@@ -92,7 +95,7 @@ h3 span {
 
   nav {
     position: absolute;
-    top: 10px;
+    top: 25px;
     right: 0px;
     width: 75%;
   }
@@ -110,5 +113,11 @@ h3 span {
     padding: 0;
     text-decoration: none;
     border-color: transparent;
+  }
+
+  #aboutMe div {
+    font-size: 3vw;
+    margin: 0 auto;
+    width: 80%;
   }
 }
