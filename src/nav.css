@@ -5,6 +5,8 @@
 a,
 button {
   cursor: pointer;
+  color: var(--link-color1);
+  text-decoration: none;
 }
 
 nav {
@@ -25,7 +27,6 @@ nav {
 }
 
 .navigation ul li {
-  color: #fff;
   text-align: right;
   text-transform: uppercase;
   list-style-type: none;
