@@ -29,7 +29,7 @@ footer a:hover {
   align-items: center;
   transform: rotate(90deg) translate(6px, 5px);
   position: fixed;
-  right: -60px;
+  right: -120px;
   bottom: 80px;
   color: var(--low-color);
   grid-column: 6/7;

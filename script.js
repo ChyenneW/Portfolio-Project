@@ -4,7 +4,6 @@ function show() {
 }
 
 const navLinks = document.getElementById('navLinks');
-
 window.addEventListener("scroll", () => {
     var y = window.scrollY;
     if (y >= 130) {
@@ -13,5 +12,18 @@ window.addEventListener("scroll", () => {
     }
     else {
         navLinks.classList.remove('disappear');
+    }
+});
+
+const hamburger = document.querySelector('.hamburger');
+window.addEventListener("scroll", () => {
+
+    var y = window.scrollY;
+    if (y >= 80) {
+        hamburger.classList.add('disappear');
+        return;
+    }
+    else {
+        hamburger.classList.remove('disappear');
     }
 });

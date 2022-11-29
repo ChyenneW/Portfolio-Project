@@ -30,9 +30,12 @@ nav {
   text-align: right;
   text-transform: uppercase;
   list-style-type: none;
-  font-size: 1.5em;
   padding: 20px 30px;
   border-bottom: 1pt solid #252525;
+}
+
+#navLinks li a {
+  font-size: 2.2vw;
 }
 
 .hamburger,
