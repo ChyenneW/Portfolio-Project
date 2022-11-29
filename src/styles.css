@@ -31,7 +31,7 @@ h1 {
 .intro h4,
 .intro p {
   width: 70%;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 .intro h4,
@@ -53,7 +53,7 @@ h3 span {
 
 .divider {
   display: grid;
-  margin-top: 185px;
+  margin-top: 105px;
   margin-bottom: 20px;
   align-items: center;
 }
@@ -73,7 +73,7 @@ h3 span {
 }
 
 #aboutMe div {
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 .about-me {
@@ -125,6 +125,6 @@ h3 span {
   }
 
   .divider {
-    margin-top: 100px;
+    margin-top: 180px;
   }
 }
