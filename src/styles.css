@@ -115,3 +115,38 @@ footer a:hover {
   margin: 0;
   width: 100px;
 }
+
+@media (min-width: 700px) {
+  .hamburger {
+    display: none;
+  }
+
+  .navigation {
+    right: 0;
+    background-color: transparent;
+    width: 70%;
+    height: 10%;
+  }
+
+  nav {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 75%;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 10px;
+    padding-left: 0;
+  }
+
+  .navigation ul li,
+  .navigation ul li a {
+    text-align: left;
+    font-size: 15px;
+    padding: 0;
+    text-decoration: none;
+    border-color: transparent;
+  }
+}
