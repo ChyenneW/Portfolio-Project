@@ -1,6 +1,14 @@
 @import url("nav.css");
 @import url("stack.css");
 
+:root {
+  --primary-font: "Playfair Display SC", serif;
+  --secondry-font: "Poppins", sans-serif;
+  --primary-color: #85e1dc;
+  --secondary-color: #a1d8da;
+  --low-color: #aecac2;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -58,6 +66,24 @@ footer {
   margin-top: 100px;
   padding: 50px;
   text-align: center;
+  color: var(--low-color);
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+footer a {
+  color: var(--low-color);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+.closer {
+  grid-column: 2/6;
 }
 
 .email-divider {
@@ -68,6 +94,8 @@ footer {
   position: fixed;
   right: -60px;
   bottom: 80px;
+  color: var(--low-color);
+  grid-column: 6/7;
 }
 
 .social-divider {
@@ -78,11 +106,12 @@ footer {
   position: fixed;
   left: -60px;
   bottom: 80px;
+  color: var(--low-color);
+  grid-column: 1/2;
 }
 
 .side-divider hr {
   height: 2px;
   margin: 0;
-  color: black;
   width: 100px;
 }
