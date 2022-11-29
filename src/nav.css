@@ -22,7 +22,7 @@ nav {
   width: 350px;
   height: 100%;
   top: 0;
-  background-color: #000;
+  background-color: rgba(34, 33, 33, 0.784);
   transition: all 0.7s ease-in-out;
 }
 

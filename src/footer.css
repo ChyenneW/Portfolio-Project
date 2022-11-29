@@ -15,7 +15,7 @@ footer a {
 }
 
 footer a:hover {
-  color: var(--link-color1);
+  color: rgba(201, 160, 83, 0.4);
   text-decoration: underline;
 }
 

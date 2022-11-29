@@ -82,6 +82,27 @@ h3 span {
   list-style-type: circle;
 }
 
+.callButtons {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+
+.callButtons a {
+  text-align: center;
+  font-size: 2.7vw;
+  margin-top: 65px;
+  color: var(--link-color1);
+  border: 1px solid var(--link-color1);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.callButtons a:hover {
+  color: white;
+  background-color: rgba(205, 154, 59, 0.6);
+}
+
 .contact-section {
   text-align: center;
   margin: 0 auto;
@@ -108,7 +129,7 @@ h3 span {
 
 .contact-section a:hover {
   color: white;
-  background-color: var(--link-color1);
+  background-color: rgba(205, 154, 59, 0.6);
 }
 
 @media (min-width: 700px) {
