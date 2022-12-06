@@ -1,0 +1,17 @@
+@import url("nav.css");
+
+:root {
+  --primary-font: "Playfair Display SC", serif;
+  --secondry-font: "Poppins", sans-serif;
+  --primary-color: #85e1dc;
+  --secondary-color: #657d5c;
+  --low-color: #aecac2;
+  --link-color1: #c9a053;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--secondry-font);
+  background-color: #9ccd7e63;
+}
