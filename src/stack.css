@@ -108,3 +108,9 @@ ul.technologies-used-left {
     grid-column: 1 / span 3;
   }
 }
+
+@media (min-width: 700px) {
+  .stack-top-left div p {
+    width: 130%;
+  }
+}

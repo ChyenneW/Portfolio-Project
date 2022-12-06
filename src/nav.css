@@ -22,8 +22,9 @@ nav {
   width: 350px;
   height: 100%;
   top: 0;
-  background-color: rgba(34, 33, 33, 0.784);
+  background-color: #023617c4;
   transition: all 0.7s ease-in-out;
+  z-index: 1;
 }
 
 .navigation ul li {
