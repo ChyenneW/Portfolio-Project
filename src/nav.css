@@ -1,5 +1,5 @@
 .logo {
-  width: 100px;
+  width: 130px;
 }
 
 a,
@@ -18,7 +18,7 @@ nav {
 
 .navigation {
   position: fixed;
-  right: -95%;
+  right: -150%;
   width: 350px;
   height: 100%;
   top: 0;
@@ -87,4 +87,10 @@ nav {
 .hamburger.open #bar3 {
   background-color: #fff;
   transform: rotate(-45deg) translate(6px, -5px);
+}
+
+@media (max-width: 700px) {
+  .logo {
+    width: 100px;
+  }
 }

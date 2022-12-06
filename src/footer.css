@@ -52,3 +52,9 @@ footer a:hover {
   margin: 0;
   width: 100px;
 }
+
+@media (min-width: 600px) {
+  .side-divider {
+    display: none;
+  }
+}
