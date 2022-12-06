@@ -31,6 +31,16 @@ p {
   font-size: 1.8vw;
 }
 
+.avitar {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 85%;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px 5px lightgray;
+}
+
 .callButtons {
   display: block;
   margin: 0 auto;
