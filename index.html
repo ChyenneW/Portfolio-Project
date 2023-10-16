@@ -2,222 +2,510 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Chyenne Williams | Web Developer</title>
-    <meta
-      name="description"
-      content="Hello I am Chyenne Williams, a front-end web developer
-  based in the United States."
-    />
-
+    <title>Document</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,300;0,500;1,300;1,500&display=swap"
-      rel="stylesheet"
-    />
-
-    <script
-      src="https://kit.fontawesome.com/e128ad17cd.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <link rel="stylesheet" href="/src/styles.css" />
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <div>
-      <a href="/index">
-        <img
-          class="logo"
-          src="/src/logo/cw1logo.png"
-          alt="Hi, I'm Chyenne Williams - Web Developer"
-        />
-      </a>
-      <div class="navigation">
-        <button class="hamburger" onclick="show()">
-          <div id="bar1" class="bar"></div>
-          <div id="bar2" class="bar"></div>
-          <div id="bar3" class="bar"></div>
-        </button>
-
-        <nav>
-          <ul id="navLinks">
-            <li><a href="#aboutMe">01. About Me</a></li>
-            <li><a href="#lbb">02. Study Projects</a></li>
-            <li><a href="#contact">03. Contact Me</a></li>
-          </ul>
-        </nav>
+    <nav class="navbar navbar-default navbar-fixed-top nav" id="navbar">
+      <img
+        src="/images/cw1logo.png"
+        title="Chyenne Williams | Front-End Developer"
+        height="85"
+      />
+    </nav>
+    <header class="mb-3">
+      <div class="text-end pe-3">
+        <h3>Hello,</h3>
+        <h1>I am Chyenne</h1>
+        <h2>Front-End Developer</h2>
+        <p>
+          Welcome to my portfolio website! I'm a front end web developer with a
+          passion for creating visually stunning and user-friendly websites.
+        </p>
       </div>
-    </div>
+    </header>
 
-    <div class="intro">
-      <h4>Hello, I am</h4>
-      <h1>Chyenne Williams</h1>
+    <div id="aboutMe" class="mb-5 text-center fs-5">
       <p>
-        I'm a front-end developer with most of my experiance in building
-        websites. Currenty, I am focused on learning more about app development
-        and web applications.
+        I started my coding journey as a student of SheCodes Workshops. Through
+        them I learned the fundamentals of responsive front-end web development.
+        It was a fun and challenging experience that sparked my love of coding.
+        After that I worked through some of The Odin Project's curriculum and
+        started building my own projects.
       </p>
     </div>
 
-    <div class="section" id="aboutMe">
-      <div class="divider">
-        <h3><span>01. </span>About Me</h3>
-        <hr />
-      </div>
-      <div>
-        Hi again! I love creating new things.
-        <br /><br />
-        I started my coding journey as a student of
-        <span>
+    <div id="learningExperiances" class="mb-5 text-center">
+      <div class="mb-3">
+        <h3>SheCodes Workshops</h3>
+        <div class="d-flex m-2 gap-3">
           <a
-            href="https://www.shecodes.io/graduates/24483-chyenne-williams"
+            href="https://www.shecodes.io/certificates/1343ddba75db96dbed48f3200178ce5a"
             target="_blank"
           >
-            SheCodes Workshops
+            <img
+              src="/images/adv-react-cert.png"
+              id="cert"
+              class="img-fluid img-thumnail rounded-3"
+              title=""
+              alt="Advanced React Development Certificate"
+              height="150"
+            />
           </a>
-        </span>
-        . It was a fun and challenging experience that sparked my love of
-        coding.
-        <br /><br />
-        So far I've worked with:
-        <br />
-        <ul class="about-me">
-          <li>JavaScript</li>
-          <li>GitHub</li>
-          <li>React</li>
-          <li>APIs</li>
-        </ul>
-      </div>
-
-      <div>
-        <a href="/about">Learn More</a>
-      </div>
-    </div>
-
-    <div class="section" id="lbb">
-      <div class="divider">
-        <h3><span>02. </span>Learn by Building</h3>
-        <hr />
-      </div>
-
-      <div class="row stack">
-        <div class="col-md-7 stack-top-left">
-          <small>Featured Project</small>
-          <h2>React Dictionary</h2>
-          <div>
-            <p>
-              This project was created using JavaScript, CSS and Bootstrap. It
-              uses two different APIs, one that handles the definitons and
-              another that grabs photos for the examples section.
-            </p>
-            <ul class="technologies-used-left">
-              <li>React</li>
-              <li>JavaScript</li>
-              <li>Bootstrap</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-md stack-bottom-right">
-          <img
-            src="/src/ReactDictionary.png"
-            class="img-fluid img-thumnail rounded-3"
-            alt="screenshot of weather project"
-          />
-        </div>
-      </div>
-
-      <div class="row stack">
-        <div class="col-md stack-bottom-left">
-          <img
-            class="img-fluid img-thumbnail"
-            src="/src/ReactWeather.png"
-            alt="screenshot of weather project"
-          />
-        </div>
-        <div class="col-md stack-top-right">
-          <small>Featured Project</small>
-          <h2>Simple Weather</h2>
-          <div>
-            <p>
-              Web app for getting live weather information. Search your current
-              city or let the geolocation button find you.
-            </p>
-            <ul class="technologies-used-right">
-              <li>React</li>
-              <li>JavaScript</li>
-              <li>OpenWeatherMap API</li>
-              <li>Bootstrap</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="callButtons">
-        <a href="/works">See More</a>
-      </div>
-    </div>
-
-    <div class="section" id="contact">
-      <div class="divider">
-        <h3><span>03. </span>Contact Me</h3>
-        <hr />
-      </div>
-      <div class="contact-section">
-        <h5>Let's Get in Touch</h5>
-        <p>
-          My in box is always open and I love making new connections on
-          LinkedIn.
-        </p>
-        <a href="mailto:chyennew.dev@gmail.com">Say Hello</a>
-      </div>
-    </div>
-
-    <footer>
-      <div class="side-divider social-divider">
-        <span>
-          <a href="https://github.com/ChyenneW" target="blank">
-            <i class="fab fa-github"></i>
-          </a>
-        </span>
-        <span>
-          <a href="https://www.linkedin.com/in/chyennew" target="blank">
-            <i class="fab fa-linkedin-in"> </i>
-          </a>
-        </span>
-        <span>
           <a
-            href="https://www.shecodes.io/graduates/24483-chyenne-williams"
-            target="blank"
+            href="https://www.shecodes.io/certificates/35ecb162c7f27be1547d5d307b33e442"
+            target="_blank"
           >
-            <i class="fa-solid fa-certificate"></i>
+            <img
+              src="/images/rep-web-dev.png"
+              id="cert"
+              class="img-fluid img-thumnail rounded-3"
+              title=""
+              alt="Responsive Web Development Certificate"
+              height="150"
+            />
           </a>
-        </span>
-        <hr />
+          <a
+            href="https://www.shecodes.io/certificates/7f5a5cb1e836c3551fbe52ba4d93a921"
+            target="_blank"
+          >
+            <img
+              src="/images/web-dev.png"
+              id="cert"
+              class="img-fluid img-thumnail rounded-3"
+              title=""
+              alt="Web Development Certificate"
+              height="150"
+            />
+          </a>
+          <a
+            href="https://www.shecodes.io/certificates/de0ef004ca0e17cea51451698defcba1"
+            target="_blank"
+          >
+            <img
+              src="/images/intro-web-dev.png"
+              id="cert"
+              class="img-fluid img-thumnail rounded-3"
+              title=""
+              alt="Intro to Coding Certificate"
+              height="150"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="mb-3">
+        <h3>Odin Project</h3>
+        <div class="d-flex gap-2 justify-content-center">
+          <div class="card" style="width: 18rem">
+            <a
+              href="https://github.com/ChyenneW/Etch-a-sketch_JS"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <img
+                src="/images/etch.PNG"
+                class="card-img-top"
+                alt="Etch-a-sketch"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  JavaScript Etch-a-sketch Game
+                </p>
+                <a
+                  href="https://chyennew.github.io/Etch-a-sketch_JS/"
+                  target="_blank"
+                >
+                <button class="btn">Play Now</button>
+              </a>
+              </div>
+            </a>
+             <small class="d-flex justify-content-end m-2">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+            title="JavaScript"
+            alt="JavaScript"
+            width="20vw"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg"
+            title="HTML5"
+            alt="HTML"
+            width="20vw"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"
+            title="CSS3"
+            alt="CSS"
+            width="20vw"
+          />
+        </small>
+          </div>
+          <div class="card" style="width: 18rem">
+            <a
+              href="https://github.com/ChyenneW/Odin_rock-paper-scissors-project"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <img
+                src="/images/RockPaperScissors.PNG"
+                class="card-img-top img-fluid img-thumnail rounded-3"
+                alt="Rock.Paper.Scissors"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  JavaScript Rock Paper Scissors Game
+                <a
+                  href="https://thewarriors-warmupgame.netlify.app"
+                  target="_blank"
+                >
+                  <button class="btn">Play Now</button>
+                </a>
+              </div>
+            </a>
+             <small class="d-flex justify-content-end m-2">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+            title="JavaScript"
+            alt="JavaScript"
+            width="20vw"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg"
+            title="HTML5"
+            alt="HTML"
+            width="20vw"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"
+            title="CSS3"
+            alt="CSS"
+            width="20vw"
+          />
+        </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="w-75 d-flex mx-auto">
+        <p class="text-center fs-5">
+          I like to take on challenging projects that allow me to add new
+          languages and tools under my belt. I have created
+          <strong>responsive websites</strong> and developed a couple modern
+          <strong>web applications</strong>. Please take a look at some of my
+          favorite projects. Most of my code is available to review on
+          <strong>my github</strong>.
+        </p>
+      </div>
+      <div class="d-flex gap-5 justify-content-center">
+        <div id="languages" class="mb-5 text-center">
+          <h3>Languages</h3>
+          <div>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+              title="JavaScript"
+              alt="JavaScript"
+              width="45vw"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+              title="Typescript"
+              alt="Typescript"
+              width="45vw"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg"
+              title="HTML5"
+              alt="HTML"
+              width="45vw"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"
+              title="CSS3"
+              alt="CSS"
+              width="45vw"
+            />
+          </div>
+        </div>
+        <div id="tools" class="mb-5 text-center">
+          <h3>Tools</h3>
+          <div>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+              title="Reactjs"
+              alt="Reactjs"
+              width="45vw"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"
+              title="Nextjs"
+              alt="Nextjs"
+              width="45vw"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg"
+              title="Bootstrap"
+              alt="Bootstrap"
+              width="45vw"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+              title="Tailwind"
+              alt="Tailwind"
+              width="45vw"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"
+              title="Firebase"
+              alt="Firebase"
+              width="45vw"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg"
+              title="NodeJS"
+              alt="NodeJS"
+              width="45vw"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg"
+              title="Git"
+              alt="Git"
+              width="45vw"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        id="projects"
+        class="mb-5 text-center d-flex flex-column flex-md-row justify-content-center mx-auto gap-3 p-2"
+      >
+        <div class="card mx-auto" style="width: 18rem">
+          <a
+            href="https://github.com/ChyenneW/react-weather-apps"
+            target="_blank"
+            class="text-decoration-none"
+          >
+            <img
+              src="/images/Weather.PNG"
+              class="card-img-top"
+              alt="Weather App"
+            />
+            <div class="card-body">
+              <p class="card-text">Simple Weather Project</p>
+              <a
+                href="https://nervous-curran-6e472b.netlify.app/"
+                target="_blank"
+              >
+                <button class="btn">Check the Weather</button>
+              </a>
+            </div>
+          </a>
+          <small class="d-flex justify-content-end m-2">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+              title="JavaScript"
+              alt="JavaScript"
+              width="20vw"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg"
+              title="HTML5"
+              alt="HTML"
+              width="20vw"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"
+              title="CSS3"
+              alt="CSS"
+              width="20vw"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg"
+              title="Bootstrap"
+              alt="Bootstrap"
+              width="20vw"
+            />
+          </small>
+        </div>
+        <div class="card mx-auto" style="width: 18rem">
+          <a
+            href="https://github.com/ChyenneW/react-dictionary-project"
+            target="_blank"
+            class="text-decoration-none"
+          >
+            <img
+              src="/images/ReactDictionary2.PNG"
+              class="card-img-top"
+              alt="Dictionary App"
+            />
+            <div class="card-body">
+              <p class="card-text">React Dictionary Project</p>
+              <a href="#" target="_blank">
+                <button class="btn">Find a Word</button>
+              </a>
+            </div>
+          </a>
+          <small class="d-flex justify-content-end m-2">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+              title="JavaScript"
+              alt="JavaScript"
+              width="20vw"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg"
+              title="HTML5"
+              alt="HTML"
+              width="20vw"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"
+              title="CSS3"
+              alt="CSS"
+              width="20vw"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg"
+              title="Bootstrap"
+              alt="Bootstrap"
+              width="20vw"
+            />
+          </small>
+        </div>
+        <div class="card mx-auto" style="width: 18rem">
+          <a
+            href="https://github.com/ChyenneW/happyhacker-2022showcode-hackathon-project"
+            target="_blank"
+            class="text-decoration-none"
+          >
+            <img
+              src="/images/hack2022.PNG"
+              class="card-img-top"
+              alt="Showcode 2022 Hackathon"
+            />
+            <div class="card-body">
+              <p class="card-text">ShowCode 2022 Hackathon Entry</p>
+              <a
+                href="https://main--happyhacker-showcode2022-hackathon.netlify.app/"
+                target="_blank"
+              >
+                <button class="btn">Take a Look</button>
+              </a>
+            </div>
+          </a>
+          <small class="d-flex justify-content-end m-2">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg"
+              title="HTML5"
+              alt="HTML"
+              width="20vw"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"
+              title="CSS3"
+              alt="CSS"
+              width="20vw"
+            />
+          </small>
+        </div>
+        <div class="card mx-auto" style="width: 18rem">
+          <a
+            href="https://github.com/ChyenneW/Etch-a-sketch_JS"
+            target="_blank"
+            class="text-decoration-none"
+          >
+            <img
+              src="/images/etch.PNG"
+              class="card-img-top"
+              alt="Etch-a-sketch"
+            />
+            <div class="card-body">
+              <p class="card-text">JavaScript Etch-a-sketch Project</p>
+              <a
+                href="https://chyennew.github.io/Etch-a-sketch_JS/"
+                target="_blank"
+              >
+                <button class="btn">Play Now</button>
+              </a>
+            </div>
+          </a>
+        <small class="d-flex justify-content-end m-2">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+            title="JavaScript"
+            alt="JavaScript"
+            width="20vw"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg"
+            title="HTML5"
+            alt="HTML"
+            width="20vw"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"
+            title="CSS3"
+            alt="CSS"
+            width="20vw"
+          />
+        </small>
+      </div>
       </div>
 
-      <div class="closer">✌🏽 Chyenne Williams</div>
-
-      <div class="side-divider email-divider">
-        <span>
-          <a href="mailto:chyennew.dev@gmail.com">
-            <i class="far fa-envelope"></i> chyennew.dev@gmail.com
-          </a>
-        </span>
-        <hr />
-      </div>
+    <footer id="socialMedias" class="text-center mb-5">
+      <a href="https://www.chyennew.dev">
+        <img
+          src="https://img.shields.io/badge/Portfolio-purple?logo=web&logoColor=white"
+          id="socialBadge"
+          alt="Portfolio"
+        />
+      </a>
+      <a href="https://linkedin.com/in/chyennew">
+        <img
+          src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white"
+          id="socialBadge"
+          alt="LinkedIn"
+        />
+      </a>
+      <a href="https://discord.gg/ZX5VZHakQ">
+        <img
+          src="https://img.shields.io/badge/Discord-darkblue?logo=discord&logoColor=white"
+          id="socialBadge"
+          alt="discord"
+        />
+      </a>
+      <a href="/">
+        <img
+          src="https://img.shields.io/badge/Slack-hotpink?logo=slack&logoColor=white"
+          id="socialBadge"
+          alt="slack"
+        />
+      </a>
+      <a href="/">
+        <img
+          src="https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white"
+          id="socialBadge"
+          alt="Youtube"
+        />
+      </a>
+      <a href="https://github.com/ChyenneW">
+        <img
+          src="https://img.shields.io/badge/GitHub-purple?logo=github&logoColor=white"
+          id="socialBadge"
+          alt="github"
+        />
+      </a>
     </footer>
   </body>
 </html>
