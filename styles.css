@@ -1,10 +1,55 @@
-#cert, #socialBadge {
-    transition: all .5s ease-in-out;
+:root {
+  --primary-font: "Playfair Display SC", serif;
+  --secondry-font: "Poppins", sans-serif;
+  --primary-color: #85e1dc;
+  --secondary-color: #657d5c;
+  --low-color: #aecac2;
+  --link-color1: #c9a053;
 }
-#cert:hover{
-    transform: scale(1.3);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  font-size: 9.5vw;
+}
+
+.intro {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.intro h4,
+.intro p {
+  font-size: 3vw;
+}
+
+a,
+.intro h4,
+h3 span {
+  color: var(--link-color1);
+}
+
+#aboutMe {
+  font-size: 2.5vw;
+}
+
+h3 {
+  font-size: 6vw;
+}
+
+#cert,
+#socialBadge {
+  transition: all 0.5s ease-in-out;
+}
+#cert:hover {
+  transform: scale(1.3);
 }
 
 #socialBadge:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
