@@ -470,12 +470,12 @@
       </div>
 
     <footer id="socialMedias" class="text-center mb-5">
-      <a href="https://www.chyennew.dev">
-        <img
-          src="https://img.shields.io/badge/Portfolio-purple?logo=web&logoColor=white"
-          id="socialBadge"
-          alt="Portfolio"
-        />
+      <a href="#" id="resume">
+          <img
+            src="https://img.shields.io/badge/Resume-purple?logo=web&logoColor=white"
+            id="socialBadge"
+            alt="Resume"
+          />
       </a>
       <a href="https://linkedin.com/in/chyennew">
         <img
@@ -491,7 +491,7 @@
           alt="discord"
         />
       </a>
-      <a href="/">
+      <a href="https://shecodesio.slack.com/team/U029GQQ3JRM">
         <img
           src="https://img.shields.io/badge/Slack-hotpink?logo=slack&logoColor=white"
           id="socialBadge"
@@ -513,5 +513,24 @@
         />
       </a>
     </footer>
+
+    <script>
+  document.getElementById("resume").addEventListener("click", function (event) {
+    event.preventDefault();
+    fetch("/ChyenneW_Resume.pdf")
+      .then(response => response.blob())
+      .then(blob => {
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.style.display = "none";
+        a.href = url;
+        a.download = "chyennew_resume.pdf";
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+      });
+  });
+</script>
+
   </body>
 </html>
